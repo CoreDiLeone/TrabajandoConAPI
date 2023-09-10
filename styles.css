@@ -1,0 +1,98 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+background: url('pokeFondo.png') no-repeat;
+background-size: cover;
+}
+
+img {
+width: 190px;
+height: 190px;
+}
+
+.sub-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    background-color:  #fff;
+    border-radius: 50%;
+    height: 350px;
+    box-shadow: 0px 0px 5px #fff;
+    text-align: left;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color:#222;
+    height: 580px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #222;
+    margin-top: 125px;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color:  rgb(180, 10, 10);
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 3px 2px 22px 1px rgba(23, 23, 23, 0.24);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+button:hover{
+    background-color:  rgba(152, 6, 6, 0.888);
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    color:#fff;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 4px;
+}
+a{
+
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+    color: #fff;
+    font-family: sans-serif;
+    
+
+}
+span{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
